@@ -1,0 +1,148 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+img,
+video {
+  filter: brightness(0.8) !important;
+}
+
+a {
+  color: #bb86fc !important;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #e0e0e0 !important;
+  background-color: #bb86fc !important;
+  text-decoration: underline;
+}
+
+input,
+textarea,
+select,
+button {
+  background-color: transparent !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+input:hover,
+textarea:hover,
+select:hover,
+button:hover,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  background-color: #444 !important;
+  border-color: #bb86fc !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #aaa;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
